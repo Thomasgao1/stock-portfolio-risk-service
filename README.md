@@ -91,7 +91,7 @@ docker run --rm -p 8080:8080 portfolio-api:latest
 curl http://localhost:8080/health
 ```
 ---
-### 5) Cloud Deployment (Render)
+# 5) Cloud Deployment (Render)
 
 Live Service
 ```
@@ -102,7 +102,7 @@ Health Endpoint
 https://stock-portfolio-risk-service.onrender.com/health
 ```
 ---
-### 6) Design Decisions
+# 6) Design Decisions
 
 ## Why this concept?
 Portfolio analytics is a perfect demonstration of:
@@ -130,7 +130,7 @@ Portfolio analytics is a perfect demonstration of:
 - Could easily scale horizontally if deployed with multiple containers
 
 ---
-### 7) Results & Evaluation
+# 7) Results & Evaluation
 ## Example Output
 For [AAPL, MSFT, SPY] with weights [0.3, 0.4, 0.3]:
 ```
@@ -161,7 +161,7 @@ Smoke tests (`tests/test_portfolio_math.py`) validated that:
 - stats dictionary is correctly produced
 
 ---
-### 8) What’s Next
+# 8) What’s Next
 Potential improvements:
 - Pull real historical data for dynamic covariance calculation
 - Add constrained optimization (max allocation, long-only constraint)
@@ -170,7 +170,7 @@ Potential improvements:
 - Add CI pipeline for automated testing
 
 ---
-### 9) Links
+# 9) Links
 ## GitHub Repository:
 https://github.com/Thomasgao1/stock-portfolio-risk-service
 
